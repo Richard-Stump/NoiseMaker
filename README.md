@@ -15,6 +15,15 @@ Sending the generation parameters to the GPU and doing everything through
 shaders would have been more performant; however, this was the simplest way
 to implement it with the knowledge and time that I possesed. 
 
+## Controls:
+The parameters to the noise generation and visualization can be changed through
+the ImGui window. In the 3D Views, the camera can be moved with the following
+keys:
+- WASD:              Move forward, left, backward, and right respectively
+- Space/Left Shift:  Move up and down
+- Left/Right arrows: Pan the camera
+- Up/Down arrows:    Pitch the camera
+
 ## Features
 
 ### Visualization Display Modes:
