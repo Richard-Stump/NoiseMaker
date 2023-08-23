@@ -1,0 +1,6 @@
+#ifndef FUNCTIONS_ARITHMETIC_HPP
+#define FUNCTIONS_ARITHMETIC_HPP
+
+#include "Interface.hpp"
+
+#endif//FUNCTIONS_ARITHMETIC_HPP

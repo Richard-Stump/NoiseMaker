@@ -141,7 +141,7 @@ extern "C" {
  *
  *  @ingroup native
  */
-GLFWAPI const char* glfwGetWin32Adapter(GLFWmonitor* monitor);
+GLFWAPI const char* __cdecl glfwGetWin32Adapter(GLFWmonitor* monitor);
 
 /*! @brief Returns the display device name of the specified monitor.
  *
@@ -158,7 +158,7 @@ GLFWAPI const char* glfwGetWin32Adapter(GLFWmonitor* monitor);
  *
  *  @ingroup native
  */
-GLFWAPI const char* glfwGetWin32Monitor(GLFWmonitor* monitor);
+GLFWAPI const char* __cdecl glfwGetWin32Monitor(GLFWmonitor* monitor);
 
 /*! @brief Returns the `HWND` of the specified window.
  *
@@ -182,7 +182,7 @@ GLFWAPI const char* glfwGetWin32Monitor(GLFWmonitor* monitor);
  *
  *  @ingroup native
  */
-GLFWAPI HWND glfwGetWin32Window(GLFWwindow* window);
+GLFWAPI HWND __cdecl glfwGetWin32Window(GLFWwindow* window);
 #endif
 
 #if defined(GLFW_EXPOSE_NATIVE_WGL)
