@@ -196,5 +196,7 @@
     <None Include="resource\Shaders\SolidView.geom">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

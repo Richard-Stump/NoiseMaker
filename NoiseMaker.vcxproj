@@ -219,6 +219,8 @@
     <ClInclude Include="source\Render\Shader.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
     <None Include="resource\Shaders\Heightmap.frag" />
     <None Include="resource\Shaders\Heightmap.vert" />
     <None Include="resource\Shaders\MeshView.frag" />
